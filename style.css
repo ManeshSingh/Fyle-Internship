@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.container{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+}
+.box1{
+    height: 200px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    background-color: rgb(176, 171, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    height: 200px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 0.75rem;
+}
+.box2 h1{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.fun{
+    width: 100%;
+    height: 130px;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+}
+.repo1{
+    height: 130px;
+    width: 35%;
+    border: 2px solid black;
+    padding: 0.75rem;
+    gap: 0.80rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+.repo1 h2{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(56, 126, 154);
+}
+.repo2{
+    height: 130px;
+    width: 35%;
+    border: 2px solid black;
+    padding: 0.75rem;
+    gap: 0.80rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+.repo2 h2{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(56, 126, 154);
+}
+.repo1 p{
+    font-size: 0.85rem;
+    font-family: 'Roboto Slab', serif;
+}
+.repo2 p{
+    font-size: 0.85rem;
+    font-family: 'Roboto Slab', serif;
+}
+.inner_buttons{
+    display: flex;
+}
+.inner_buttons button{
+    border: 2px solid black;
+    background-color: rgb(56, 126, 154);
+    font-family: 'Roboto Slab', serif;
+    height: 30px;
+    width: 85px;
+    color: white;
+    margin-right: 0.5rem;
+    border-radius: 3px;
+}
+
+.array{
+    padding-left: 38%;
+    padding-right: 30%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.array a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid black;
+    color: rgb(56, 126, 154);
+    font-family: 'Roboto Slab', serif;
+}
+.array a:hover{
+    transform: scale(1.1);
+}
+.last{
+    padding-left: 38%;
+    padding-right: 30%;
+    padding-bottom: 100px;
+}
+.last a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 25px;
+    border: 1px solid grey;
+}
+#older{
+    margin-left: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: rgb(56, 126, 154);
+}
+#newer{
+    margin-left: 8rem;
+    color: rgb(56, 126, 154);
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+
+#a1{
+    background-color: rgb(56, 126, 154);
+    color: white;
+}
+#a2{
+    background-color: rgb(56, 126, 154);
+    color: white;
+}
+#a3{
+    background-color: rgb(56, 126, 154);
+    color: white;
+}
+#a4{
+    background-color: rgb(56, 126, 154);
+    color: white;
+}
+#a5{
+    background-color: rgb(56, 126, 154);
+    color: white;
+}
